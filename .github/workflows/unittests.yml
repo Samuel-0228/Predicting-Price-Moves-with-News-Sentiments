@@ -18,6 +18,11 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        pip install pytest  # Explicit for safety
     - name: Run tests
       run: |
-        python -m pytest tests/ -v  # Assumes you add pytest later
+        python -m pytest tests/ -v --tb=short  # -v verbose, --tb=short for clean logs
+      # Optional: Add coverage
+      # - name: Coverage Report
+      #   run: pytest --cov=src --cov-report=xml
+    # Optional: Upload coverage to Codecov (needs token)
