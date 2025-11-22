@@ -4,7 +4,7 @@
 This repo contains partial progress on Tasks 1 & 2 for the Nova Financial Insights Challenge (Week 1). Focus: EDA on FNSPID dataset and initial quantitative indicators.
 
 ## Setup
-1. Clone: `git clone https://github.com/Samuel-0228/Predicting-Price-Moves-with-News-Sentimentgit`
+1. Clone: `git clone https://github.com/Samuel-0228/Predicting-Price-Moves-with-News-Sentiments.git`
 2. Install deps: `pip install -r requirements.txt`
 3. Run EDA: `jupyter notebook notebooks/eda_task1.ipynb`
 4. Run indicators: `python scripts/task2_indicators.py`
