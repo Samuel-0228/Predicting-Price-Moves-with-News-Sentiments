@@ -8,3 +8,5 @@ yfinance==0.2.31
 ta-lib==0.4.28  # Note: Install binaries first if needed
 pynance==0.3.0
 scipy==1.11.4
+pytest==7.4.3  # Add this
+# pytest-cov==4.1.0  # Optional: for coverage reports
