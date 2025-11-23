@@ -5,6 +5,8 @@ seaborn==0.13.0
 nltk==3.8.1
 textblob==0.18.0.post0
 yfinance==0.2.31
-ta-lib==0.4.28  # Note: Install binaries first if needed
+ta-lib==0.4.28  
 pynance==0.3.0
 scipy==1.11.4
+pytest==7.4.3  
+pytest-cov==4.1.0  
