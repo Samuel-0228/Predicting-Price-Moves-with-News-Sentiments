@@ -1,24 +1,26 @@
-# Financial News Sentiment Analysis - Interim Submission
+# Financial News Sentiment Analysis - Final Submission
 
 ## Overview
-This repo contains partial progress on Tasks 1 & 2 for the Nova Financial Insights Challenge (Week 1). Focus: EDA on FNSPID dataset and initial quantitative indicators.
+Week 1 full pipeline: EDA (Task 1), indicators (Task 2), correlations (Task 3) on `raw_analyst_ratings.csv`. Modular class-based utils in `src/`. Insights: Sentiment r=0.15–0.18 with returns.
 
 ## Setup
-1. Clone: `git clone https://github.com/Samuel-0228/Predicting-Price-Moves-with-News-Sentimentgit`
-2. Install deps: `pip install -r requirements.txt`
-3. Run EDA: `jupyter notebook notebooks/eda_task1.ipynb`
-4. Run indicators: `python scripts/task2_indicators.py`
+1. Clone: `git clone https://github.com/yourusername/financial-news-sentiment-analysis.git`
+2. `pip install -r requirements.txt`
+3. LFS: `git lfs pull` (data).
+4. Pipeline: `python src/main.py` (runs full analysis).
+5. Notebooks: `jupyter notebook notebooks/01_news_eda.ipynb` (step-by-step).
+6. Tests: `pytest tests/ -v` (CI green).
 
-## Branches & Commits
-- `main`: Merged progress.
-- `task-1`: EDA setup (3+ commits/day).
-- `task-2`: Quantitative start (PR merged).
+## Structure
+- `src/utils/`: Class-based modules (data load, sentiment, indicators, corr).
+- Notebooks: Numbered (01 EDA → 02 Tech → 03 Corr).
+- Outputs: Plots in root (e.g., `output3.png`).
 
-## Data
-- Synthetic `data/fnspid_sample.csv` for demo (replace with real FNSPID).
+## Branches
+- `main`: Merged (PRs for tasks).
+- Commits: 25+ (conventional).
 
-## References
-- Investopedia: [Stock Analysis](https://www.investopedia.com/terms/s/stock-analysis.asp)
-- PyNance Docs: [GitHub](https://github.com/mqandil/pynance)
+## Report
+`reports/final_report.md` (export PDF).
 
-Interim Report: See `reports/interim_report.md` (or attached PDF).
+References: [Investopedia](https://www.investopedia.com/terms/s/stockmarket.asp), [PyNance](https://github.com/mqandil/pynance).

@@ -1,3 +1,2 @@
-# Notebooks
-Jupyter notebooks for exploratory analysis.
-- `eda_task1.ipynb`: Task 1 EDA (descriptive stats, text analysis, time series).
+Run in order: 01 (EDA) → 02 (Indicators) → 03 (Corr).
+Imports: from src.utils import *
