@@ -18,7 +18,7 @@ Week 1 full pipeline: EDA (Task 1), indicators (Task 2), correlations (Task 3) o
 
 ## Branches
 - `main`: Merged (PRs for tasks).
-- Commits: 25+ (conventional).
+
 
 ## Report
 `reports/final_report.md` (export PDF).
