@@ -7,4 +7,3 @@ textblob==0.18.0.post0
 yfinance==0.2.31
 scipy==1.11.4
 pytest==7.4.3
-TA-Lib==0.4.28
