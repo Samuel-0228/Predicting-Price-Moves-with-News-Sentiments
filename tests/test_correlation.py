@@ -1,6 +1,6 @@
-import pytest
+import pandas as pd
 from src.utils.news_stock_correlation import CorrelationAnalyzer
-# Mock df for test
+import pytest
 
 
 @pytest.fixture
